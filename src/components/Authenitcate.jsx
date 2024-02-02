@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function App() {
+function Authenticate() {
   const [count, setCount] = useState(0);
 
   return <></>;
