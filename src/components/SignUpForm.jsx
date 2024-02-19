@@ -55,6 +55,7 @@ function SignUpForm({ token, setToken }) {
         <button type="submit">Submit</button>
       </form>
     </>
+    // testing
   );
 }
 
