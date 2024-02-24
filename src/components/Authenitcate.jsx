@@ -29,7 +29,7 @@ function Authenticate({ token }) {
     <>
       <h2>Authenticate</h2>
       {message && <p>{message}</p>}
-      {error && <p>{error} Please fill out form.</p>}
+      {error && <p>Please fill out form and try again.</p>}
       <button
         onClick={(e) => {
           handleClick(e);

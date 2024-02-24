@@ -45,7 +45,6 @@ function SignUpForm({ token, setToken }) {
           Password:{" "}
           <input
             name="password"
-            // type="password"
             value={password}
             onChange={(e) => {
               setPassword(e.target.value);
@@ -55,7 +54,6 @@ function SignUpForm({ token, setToken }) {
         <button type="submit">Submit</button>
       </form>
     </>
-    // testing
   );
 }
 
